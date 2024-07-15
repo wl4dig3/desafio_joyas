@@ -9,7 +9,8 @@ const getJoyasLimit = async ({ limit = 5, order_by = "id_asc", page = 1 }) => {
 
   const result = await pool.query(query);
   result.rowCount >= 0 ? console.log(`Se encontraron ${result.rowCount} joyas`) : console.log(`No se encontraron joyas`);
-
+console.log('query:::',result);
+  return result.rows;
 };
 
 

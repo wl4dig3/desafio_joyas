@@ -24,7 +24,7 @@ const getJoyasLimit = async (req, res) => {
     const { order_by } = req.query;
     try { 
         const result = await models.getJoyasLimit({limit, order_by});
-        res.json(result);
+        res.status(200).json({result: result});
     } catch (error) {
         console.log('falló la consulta',error.message);
     }
