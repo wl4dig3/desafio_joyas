@@ -1,6 +1,7 @@
 import express from "express";
 import {logger} from "logger-express"
 import router from "./routes/routes.js";
+// import  serverLogs  from "./middleware/serverLogs.js";
 
 const port = 3000;
 

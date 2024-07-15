@@ -10,29 +10,39 @@ const getJoyasLimit = async ({ limit = 5, order_by = "id_asc", page = 1 }) => {
   const result = await pool.query(query);
   result.rowCount >= 0 ? console.log(`Se encontraron ${result.rowCount} joyas`) : console.log(`No se encontraron joyas`);
 console.log('query:::',result);
-  return result.rows;
+  return result.rows[0];
 };
 
-
-// const getJoyasLimit = async ({ limit = 5, order_by = "id_asc" }) => {
-//     const [campo, orden] = order_by.split("_");
-//     const query = format('SELECT * FROM inventario order by %s %s limit %s', campo, orden, limit);
-//     try {
-//         const result = await pool.query(query);
-//     return result.rows;
-//     } catch (error) {
-//         console.log('falló la consulta',error.message);
-//     }
-// };
 
 const getJoyas = async () => {
     const query = 'SELECT * FROM inventario';
     const response = await pool.query(query);
     return response.rows;
-}
+};
+
+const getJoyasFiltered = async ({ precio_min, precio_max, categoria, metal }) => {
+    let filtros = [];
+  
+    if (precio_min) filtros.push(`precio >= ${precio_min}`);
+    if (precio_max) filtros.push(`precio <= ${precio_max}`);
+    if (categoria) filtros.push(`categoria = '${categoria}'`);
+    if (metal) filtros.push(`metal = '${metal}'`);
+  console.log('filtro array:::',filtros);
+    let consulta = "SELECT * FROM inventario";
+  
+    if (filtros.length > 0) {
+      filtros = filtros.join(" AND ");
+      consulta += ` WHERE ${filtros}`;
+    }
+  
+    const { rows: inventario } = await pool.query(consulta);
+  
+    return inventario;
+  };
 
 export const models = {
     getJoyasLimit,
     getJoyas,
+    getJoyasFiltered
 };
 

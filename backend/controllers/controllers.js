@@ -59,10 +59,22 @@ const getJoyas = async (req, res) => {
     }
 };
 
+const getjoyasFilteredController = async (req, res) => {
+    
+    try {
+        const query = req.query;
+        const result = await models.getJoyasFiltered(query);
+        return res.status(200).json({result});
+    } catch (error) {
+        console.log('falló la consultaZZZ de filtro',error.message);
+    }
+}
+
 
 
 export const controllers = {
     getJoyasLimit,
     getJoyas,
     home,
+    getjoyasFilteredController
 };
