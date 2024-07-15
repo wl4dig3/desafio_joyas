@@ -2,3 +2,135 @@
 Started GET / for :: ::1 at Sun Jul 14 2024 16:02:23 GMT-0400 (hora estándar de Chile)
   Parameters in body: [object Object]
 Completed: 200 message:  Time response: 13 ms Request ID: [226601e8-b3ff-446c-b5c3-a1e4568f5c6e]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 17:15:06 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 4 ms Request ID: [245d749e-4e02-47bf-ba75-1d7d692c2724]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 17:15:56 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 2 ms Request ID: [f7bbb0f6-6950-462d-b943-ac558c4162e6]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 17:16:32 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 3 ms Request ID: [11b0a95b-b1bb-4dcd-a5bb-2f9ff3412ced]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 17:17:58 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 1 ms Request ID: [cf38797d-822d-49e3-bca7-fd3ed05c4a61]
+
+Started GET /joyas_with_limits?limits=2 for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 17:23:07 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 3 ms Request ID: [290d6ba8-0f77-407f-ada6-98f8139fc9d9]
+
+Started GET /joyas_with_limits?limits=2 for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 17:33:28 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 3 ms Request ID: [710595a6-76f9-40ef-a6b9-6fa652dcfd5e]
+
+Started GET /joyas_with_limits?limits=2 for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 17:33:52 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 3 ms Request ID: [cb2cf416-bf1d-4226-8d4a-146f15db4d24]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 17:35:06 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 3 ms Request ID: [08a61d72-cec1-4221-8b72-4371b4ef7699]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 17:43:46 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 2 ms Request ID: [b43c4cb8-1d45-4081-a1c0-e483790ea8a4]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 17:47:06 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 5 ms Request ID: [c02ecf24-74d0-47c7-97bb-9a4af1b175c8]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 17:50:45 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 6 ms Request ID: [fd9e8902-946f-4c77-b7b6-4a583aa3325a]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 17:52:49 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 7 ms Request ID: [3c6495c6-8ab0-4c8c-a2b1-32b7564ab742]
+
+Started GET /medicamentos/ for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 17:56:10 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 3 ms Request ID: [d8312f3b-9789-49c1-b6cd-f935c8838280]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 18:44:11 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 4 ms Request ID: [dd09a312-4cc0-4ab1-9b1c-9b4dbfec5fa2]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 18:47:52 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 6 ms Request ID: [85cc2ff5-2011-471c-b993-726ffb1a2f30]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 18:49:10 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 6 ms Request ID: [476fc4f8-e6cf-483b-a9fb-47f1e128b96e]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 18:51:28 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 4 ms Request ID: [9a2c81d3-4100-4e4a-8959-de81464055a3]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 19:01:16 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 6 ms Request ID: [bc9e7253-ce00-4507-b921-f53bc25cbf8c]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 19:04:07 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 500 message:  Time response: 7 ms Request ID: [4a9ac0e3-44a9-4e80-b129-b7c889bfceef]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 19:04:46 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 500 message:  Time response: 8 ms Request ID: [161296aa-d0a1-45ab-b05c-b156ac1f571a]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 19:05:02 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 500 message:  Time response: 10 ms Request ID: [0e2edfe9-1f28-4789-910e-5db4f207fac5]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 19:16:07 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 500 message:  Time response: 6 ms Request ID: [c726df55-ada0-4ba8-ace3-ca99e9c9b499]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 19:16:40 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 500 message:  Time response: 20 ms Request ID: [f48e070d-1cc6-4ece-83c0-68fd3df6f09c]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 19:18:16 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 500 message:  Time response: 12 ms Request ID: [f6c86705-64dd-434f-8f58-b7a253174e69]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 19:25:02 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 500 message:  Time response: 7 ms Request ID: [f840f93b-20db-4158-9ffc-56a87e3eba9c]
+
+Started GET / for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 19:25:41 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 200 message:  Time response: 3 ms Request ID: [c877dac3-f48d-4757-83f6-92a50445b1a9]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 19:26:05 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 500 message:  Time response: 7 ms Request ID: [b23e42d4-c4b1-405b-8147-1569b11593ce]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 19:27:01 GMT-0400 (hora estándar de Chile)
+  Parameters in body: [object Object]
+Completed: 500 message:  Time response: 18 ms Request ID: [b694bb86-1637-4b6a-be12-faa5ad14abc8]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 19:39:48 GMT-0400 (hora estándar de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 5 ms Request ID: [bc837072-07fc-4e82-a4f6-2019c3aadee1]
+
+Started GET /joyas_with_limits?limits=2 for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 19:42:13 GMT-0400 (hora estándar de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 1 ms Request ID: [d9df712c-4d07-4662-b83e-8127bc0c975e]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 19:46:44 GMT-0400 (hora estándar de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 7 ms Request ID: [a4802306-2587-4adc-98a9-b42236041945]
+
+Started GET /joyas_with_limits?limits=2 for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 19:46:59 GMT-0400 (hora estándar de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 3 ms Request ID: [b9f55810-cf72-4fc1-a89a-27764227512a]
+
+Started GET /joyas_with_limits for :: ::ffff:127.0.0.1 at Sun Jul 14 2024 19:56:14 GMT-0400 (hora estándar de Chile)
+  Parameters in body: {}
+Completed: 404 message:  Time response: 4 ms Request ID: [70df8844-561d-4f10-b93e-c60e6252bfbe]

@@ -7,8 +7,8 @@ const port = 3000;
 // middlewares
 
 const app = express();
-app.use(logger());
 app.use(express.json());
-app.use("/",router);
+app.use("/", router);
+app.use(logger());
 
 app.listen(port, () => console.log(`Server running on localhost:${port}`));

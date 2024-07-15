@@ -3,17 +3,17 @@ import pg from 'pg';
 const { Pool } = pg;
 
 
-const config = {
+const pool = new Pool({
     user: 'postgres',
     host: 'localhost',
-    database: 'desafio_likeme',
+    database: 'joyas',
     password: 'Dji3pro',
     allowExitOnIdle: true
-};
+});
 
 
 
-export const pool = new Pool(config);
+export default pool;
 
 try {
     await pool.query("SELECT NOW()");
